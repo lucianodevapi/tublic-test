@@ -1,0 +1,18 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: ms-company
+  data:
+    mongodb:
+      database: db-company
+      host: localhost
+      port: 27017
+
+jwt:
+  url: '/authorization'
+  header: 'Authorization'
+  prefix: 'Bearer '
+  expiration: 120
+  secret: '66546A576E5A7234743777217A25432A462D4A614E645267556B587032733576'
